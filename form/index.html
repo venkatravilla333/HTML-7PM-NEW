@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    form{
+      height: 200px;
+      width: 400px;
+      margin: auto;
+      margin-top: 100px;
+      padding: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- <form onsubmit="" autocomplete="on" novalidate> -->
+    <!-- <fieldset>
+      <legend>This is Register form</legend>
+      <label for="name">Enter name</label>
+      <input type="text" id="name" name="name"> <br> <br>
+      <label for="email">Enter email</label>
+      <input type="email" id="email" name="email" required> <br> <br>
+      <label for="pws">Enter password</label>
+      <input type="password" id="pws" name="password"> <br> <br>
+  
+      <label for="review">Review</label>
+      <textarea name="" id="review"></textarea>
+      <br>
+      <br>
+      <label for="countries">select countries</label>
+      <select name="countries-names" id="countries" >
+        <optgroup label="countries">
+          <option value="ind">India</option>
+          <option value="aus">Australia</option>
+        </optgroup>
+        <optgroup label="names">
+          <option value="sachin">sachin</option>
+          <option value="kohli">kohli</option>
+          <option value="dhoni">dhoni</option>
+        </optgroup>
+      </select>
+      <br>
+      <br>
+      <label for="hi">Enter names</label>
+      <input type="text" list="names" id="hi">
+      <datalist id="names">
+          <option value="sachin"> sachin
+          <option value="kohli"> kohli
+          <option value="dhoni"> dhoni
+      </datalist>
+      <br>
+      <br>
+      <button type="submit">Submit</button>
+      <button type="reset">Reset</button>
+    </fieldset> -->
+
+    <!-- <input type="text" placeholder="Enter name" name="name" value="sachin" maxlength="4" size="50" readonly disabled required>
+    <br> <br>
+    <input type="email" placeholder="Enter email" name="email" >
+    <br> <br>
+    <input type="password" placeholder="Entere password" name="password">
+    <br> <br>
+    <input type="submit" disabled>
+    <br> <br>
+    <input type="radio" name="gender">male
+    <input type="radio" name="gender">female
+    <br> <br>
+    <input type="checkbox">HTML
+    <input type="checkbox">CSS
+    <input type="checkbox">REACT
+    <br> <br>
+    <input type="date">
+    <br> <br>
+    <input type="time">
+    <br> <br>
+    <input type="color">
+    <br> <br>
+    <input type="range"> -->
+    
+    <!-- <input type="email"> 
+    <input type="password">
+    <select name="" id="">
+      <option value="ind">India</option>
+      <option value="aus">Autralia</option>
+    </select>
+    <input type="radio" name="paymentmethod">COD
+    <input type="radio"  name="paymentmethod">CREDIT CARD
+    <input type="radio"  name="paymentmethod">DEBIT CARD
+
+    <input type="text" placeholder="Search products...">
+    <input type="checkbox"> for categories.
+    <input type="submit" value="submit">
+    <textarea name="" id=""></textarea>
+
+  </form> -->
+
+  <form action="/login" method="POST" autocomplete="on">
+    <fieldset>
+      <legend>Login</legend>
+  
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Enter email" required><br><br>
+  
+      <label for="pwd">Password:</label>
+      <input type="password" id="pwd" name="pwd" required maxlength="16"><br><br>
+  
+      <button type="submit">Login</button>
+    </fieldset>
+  </form>
+
+  <form action="/checkout" method="POST">
+    <fieldset>
+      <legend>Checkout</legend>
+  
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" name="name" required><br><br>
+  
+      <label for="address">Address:</label>
+      <textarea id="address" name="address" rows="5" cols="30"></textarea><br><br>
+  
+      <label for="country">Country:</label>
+      <select id="country" name="country">
+        <option value="india" selected>India</option>
+        <option value="usa">USA</option>
+        <option value="uk">UK</option>
+      </select><br><br>
+  
+      <label>Payment Method:</label><br>
+      <input type="radio" id="cod" name="payment" value="COD" checked>
+      <label for="cod">Cash on Delivery</label><br>
+      <input type="radio" id="card" name="payment" value="Card">
+      <label for="card">Credit/Debit Card</label><br><br>
+  
+      <button type="submit">Place Order</button>
+    </fieldset>
+  </form>
+
+  <form action="/feedback" method="POST">
+    <label for="review">Your Review:</label><br>
+    <textarea id="review" name="review" rows="4" cols="40"></textarea><br><br>
+  
+    <label for="rating">Rating:</label>
+    <select id="rating" name="rating">
+      <option value="5">★★★★★</option>
+      <option value="4">★★★★☆</option>
+      <option value="3">★★★☆☆</option>
+      <option value="2">★★☆☆☆</option>
+      <option value="1">★☆☆☆☆</option>
+    </select><br><br>
+  
+    <button type="submit">Submit Feedback</button>
+  </form>
+  
+</body>
+</html>

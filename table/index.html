@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    th, td{
+      text-align: left;
+      vertical-align: bottom;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- <table border="1" width="400px" height="400px" cellpadding="20px">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Course</th>
+        <th>Address</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Rahul</td>
+        <td>Html</td>
+        <td>Guntur</td>
+      </tr>
+      <tr>
+        <td>Hari</td>
+        <td>Css</td>
+        <td>Vijayawada</td>
+      </tr>
+      <tr>
+        <td>Dayu</td>
+        <td>Java</td>
+        <td rowspan="2">Hyd</td>
+      </tr>
+      <tr>
+        <td>Ravi</td>
+        <td>Node</td>
+      </tr>
+    </tbody>
+    <tfoot>
+       <tr>
+        <td colspan="3">This is footer</td>
+       </tr>
+    </tfoot>
+  </table> -->
+<table border="1" cellpadding="10" cellspacing="0">
+  <caption>Order History</caption>
+  <thead>
+    <tr>
+      <th>Order ID</th>
+      <th>Product</th>
+      <th>Price</th>
+      <th>Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>#1001</td>
+      <td>iPhone 16 Pro</td>
+      <td>₹1,29,999</td>
+      <td>Shipped</td>
+    </tr>
+    <tr>
+      <td>#1002</td>
+      <td>Nike Shoes</td>
+      <td>₹6,499</td>
+      <td>Delivered</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td colspan="4">End of Records</td>
+    </tr>
+  </tfoot>
+</table>
+<h3>Invoice</h3>
+<table border="1" cellpadding="8">
+  <thead>
+    <tr>
+      <th>Item</th>
+      <th>Qty</th>
+      <th>Price</th>
+      <th>Total</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>iPhone 16 Pro</td>
+      <td>1</td>
+      <td>₹1,29,999</td>
+      <td>₹1,29,999</td>
+    </tr>
+    <tr>
+      <td>Nike Shoes</td>
+      <td>2</td>
+      <td>₹6,499</td>
+      <td>₹12,998</td>
+    </tr>
+    <tr>
+      <td colspan="3" style="text-align:right;"><strong>Grand Total</strong></td>
+      <td><strong>₹1,42,997</strong></td>
+    </tr>
+  </tbody>
+</table>
+
+<h3>Stock Availability</h3>
+<table border="1" cellpadding="8">
+  <thead>
+    <tr>
+      <th>Warehouse</th>
+      <th>Product</th>
+      <th>Stock</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="2">Hyderabad</td>
+      <td>iPhone 16 Pro</td>
+      <td>20</td>
+    </tr>
+    <tr>
+      <td>Nike Shoes</td>
+      <td>50</td>
+    </tr>
+    <tr>
+      <td rowspan="2">Delhi</td>
+      <td>iPhone 16 Pro</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <td>Nike Shoes</td>
+      <td>40</td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>
